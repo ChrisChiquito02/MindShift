@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f6f1e7;
+  color: #4b3d2a;
+}
+.app-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fffaf0;
+  min-height: 100vh;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background: #d2b48c;
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  transition: background 0.3s;
+}
+.menu li a:hover {
+  background: #bfa074;
+}
+.button, form button {
+  background: #c2a477;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.button:hover, form button:hover {
+  background: #a78965;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+form input, form select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d2b48c;
+  border-radius: 10px;
+  font-size: 1em;
+}
+.logros p {
+  background: #e8dcc4;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.logros p.bloqueado {
+  background: #ddd;
+  color: #999;
+  font-style: italic;
+}
+img.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.resumen {
+  background: #f2e6d4;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+#timeCounter {
+  font-size: 1.5em;
+  background: radial-gradient(circle, #fff 60%, #d2b48c 100%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+.icon {
+  text-align: center;
+}

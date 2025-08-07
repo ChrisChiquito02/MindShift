@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estadísticas - MindShiftApp</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="dashboard.html">Inicio</a></li>
+          <li><a href="estadisticas.html">Estadísticas</a></li>
+          <li><a href="logros.html">Logros</a></li>
+          <li><a href="configuracion.html">Configuración</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Uso del día</h2>
+      <canvas id="statsChart" width="300" height="150"></canvas>
+      <div class="resumen">
+        <strong>Resumen semanal:</strong> Has usado la app en promedio 2.6 hrs por día.
+      </div>
+    </main>
+    <script src="../assets/js/scripts.js"></script>
+  </div>
+</body>
+</html>

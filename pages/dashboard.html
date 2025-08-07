@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - MindShift</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="dashboard.html">Inicio</a></li>
+          <li><a href="estadisticas.html">Estadísticas</a></li>
+          <li><a href="logros.html">Logros</a></li>
+          <li><a href="configuracion.html">Configuración</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2><i class='bi bi-clock icon'></i>Tu Tiempo Activo en pantalla</h2>
+      <p>Contador en sesión:</p>
+      <h3 id="timeCounter">00:00:00</h3>
+      <button id="breaksTaken" class="button"><i class='bi bi-cup-hot icon'></i>Descansos tomados hoy: 0</button>
+    </main>
+  </div>
+  <script src="../assets/js/scripts.js"></script>
+</body>
+</html>
